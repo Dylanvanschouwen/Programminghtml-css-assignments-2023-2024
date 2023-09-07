@@ -1,0 +1,13 @@
+.p-tag {
+    width:150px;
+    height:75px;
+    color:orange;
+    margin:40px;
+    background-color: purple;
+    }
+
+.h1-tag{
+    color:black;
+    background-color:pink;
+    padding-right:20px;
+}
