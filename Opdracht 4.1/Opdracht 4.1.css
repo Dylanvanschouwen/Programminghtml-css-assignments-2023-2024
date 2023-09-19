@@ -26,26 +26,3 @@ a {
     color: #8A2BE2;
     text-decoration: none;
 }
-
-
-header {
-    width: 100%;
-    min-height: 33vh; 
-    background-image: url("../Images/background.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    text-align: center;
-}
-
-header h1, header p {
-    color: white; 
-}
-
-img {
-    width: 50vw; 
-}
-article{
-    border: 5px solid black; 
-    border-left-width: 10px;
-}
