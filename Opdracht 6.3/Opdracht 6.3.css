@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    background-color: #333;
+    color: white;
+}
+
+.nav-item {
+    text-align: center;
+    padding: 10px;
+    flex: 1;
+    flex-basis: 0;
+}
+
+.logo {
+    flex-basis: 25%;
+}
+
+.login {
+    flex-basis: 25%;
+}
