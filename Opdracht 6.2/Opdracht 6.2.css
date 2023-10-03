@@ -1,0 +1,84 @@
+.container-1 {
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.container-2{
+    display:flex;
+    max-width:1200px;
+    justify-content:space-evenly;
+    flex-direction: row-reverse;
+}
+.square-1 {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+.square-2{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+.square-3{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+.square-4{
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+.square-5 {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+.square-6{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+.square-7{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+.square-8{
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
