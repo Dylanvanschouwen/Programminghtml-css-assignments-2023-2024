@@ -10,9 +10,11 @@
     justify-content:space-evenly;
     flex-direction: row-reverse;
 }
+.squares{
+    width:200px;
+    height:200px;
+}
 .square-1 {
-    width: 200px;
-    height: 200px;
     background-color: lightblue;
     display: flex;
     justify-content: center;
@@ -20,8 +22,7 @@
     font-size: 24px;
 }
 .square-2{
-    width: 200px;
-    height: 200px;
+
     background-color: orange;
     display: flex;
     justify-content: center;
@@ -29,8 +30,7 @@
     font-size: 24px;
 }
 .square-3{
-    width: 200px;
-    height: 200px;
+
     background-color: green;
     display: flex;
     justify-content: center;
@@ -38,8 +38,6 @@
     font-size: 24px;
 }
 .square-4{
-    width: 200px;
-    height: 200px;
     background-color: purple;
     display: flex;
     justify-content: center;
@@ -47,8 +45,6 @@
     font-size: 24px;
 }
 .square-5 {
-    width: 200px;
-    height: 200px;
     background-color: lightblue;
     display: flex;
     justify-content: center;
@@ -56,8 +52,6 @@
     font-size: 24px;
 }
 .square-6{
-    width: 200px;
-    height: 200px;
     background-color: orange;
     display: flex;
     justify-content: center;
@@ -65,8 +59,6 @@
     font-size: 24px;
 }
 .square-7{
-    width: 200px;
-    height: 200px;
     background-color: green;
     display: flex;
     justify-content: center;
@@ -74,8 +66,6 @@
     font-size: 24px;
 }
 .square-8{
-    width: 200px;
-    height: 200px;
     background-color: purple;
     display: flex;
     justify-content: center;
