@@ -13,13 +13,14 @@ nav{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background-color: rebeccapurple;
+    background-color: #EA4D4B;
 }
 h1{
     color: white;
 }
 section{
     height: 100%;
+    width: 90vw;
     padding: 2vh 5vw 2vh 5vw;
 }
 #Main-container{
@@ -31,20 +32,20 @@ section{
     align-items: flex-start;
 }
 #Section-1{
-    background-color: yellow;
+    background-color: #F9CA22;
 }
 #Section-2{
-    background-color: orange;
+    background-color: #F0922B;
 }
 #Section-3{
-    background-color: green;
+    background-color: #69B04C;
 }
 @media only screen and (max-width: 786px){
 #Menu{
     display: inline;
     height: 3vh;
     width: 3vh;
-    background-color: whitesmoke;
+    background-color: White;
 }
 section{
     display: flex;
@@ -53,16 +54,16 @@ section{
 }
 nav{
     justify-content: space-between;
-    background-color: paleturquoise;
+    background-color: #FF6B81;
 }
 #Section-1{
-    background-color: bisque;
+    background-color: #fe4657;
 }
 #Section-2{
-    background-color: purple;
+    background-color: #5352ec;
 }
 #Section-3{
-    background-color: forestgreen;
+    background-color: #3742f9;
 }
 } 
 @media only screen and (min-width: 576px) and (max-width: 786px){
@@ -71,18 +72,18 @@ nav{
 }
 nav{
     justify-content: center;
-    background-color: lightcoral;
+    background-color: #686de0;
 }
 section{
     display: inline;
 }
 #Section-1{
-    background-color: darkred;
+    background-color: #7ed6df;
 }
 #Section-2{
-    background-color: fuchsia;
+    background-color: #e056fd;
 }
 #Section-3{
-    background-color: greenyellow;
+    background-color: #30336a;
 }
 }
