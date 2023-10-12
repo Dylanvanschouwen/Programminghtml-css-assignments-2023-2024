@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+#Menu{
+    display: none;
+}
+nav{
+    width: 90vw;
+    height: 10vh;
+    padding: 2vh 5vw 2vh 5vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rebeccapurple;
+}
+h1{
+    color: white;
+}
+section{
+    height: 100%;
+    padding: 2vh 5vw 2vh 5vw;
+}
+#Main-container{
+    width: 100vw;
+    height: 86vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#Section-1{
+    background-color: yellow;
+}
+#Section-2{
+    background-color: orange;
+}
+#Section-3{
+    background-color: green;
+}
+@media only screen and (max-width: 786px){
+#Menu{
+    display: inline;
+    height: 3vh;
+    width: 3vh;
+    background-color: whitesmoke;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    justify-content: space-between;
+    background-color: paleturquoise;
+}
+#Section-1{
+    background-color: bisque;
+}
+#Section-2{
+    background-color: purple;
+}
+#Section-3{
+    background-color: forestgreen;
+}
+} 
+@media only screen and (min-width: 576px) and (max-width: 786px){
+#Menu{
+    display: none;
+}
+nav{
+    justify-content: center;
+    background-color: lightcoral;
+}
+section{
+    display: inline;
+}
+#Section-1{
+    background-color: darkred;
+}
+#Section-2{
+    background-color: fuchsia;
+}
+#Section-3{
+    background-color: greenyellow;
+}
+}
